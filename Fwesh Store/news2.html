@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <meta name="description" content="FweshMusic">
+  <meta name="keywords" content="music,videos,news">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Stylings/newsStyle2.css">
+</head>
+<body>
+  <div class="container">
+    <div class="cont-gather">
+      <div class="sub-cont">
+        <div class="title-holder">
+          <label id="lg-name1">Fwesh</label>
+          <label id="lg-name2">Music</label>
+        </div>
+  
+        <!--DROPDOWN SECTION-->
+  
+        <div class="dropdown">
+          <button onclick="showDropdown()" class="dropdown-button">Menu &#9776</button>
+          <div id="dropdown-content" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <a href="Contact.html">Contact</a>
+            <div class="sub-dropdown">
+              <button onclick="showSubDropdown()" class="sub-dropdown-button">Pages &#x25BC</button>
+              <div id="sub-dropdown-content" class="sub-dropdown-content">
+                <a href="music.html">Music</a>
+                <a href="Videos/AfricanV.html">Videos</a>
+              </div>
+            </div>
+            <a href="about.html">About</a>
+            <a href="help.html" id="help">Help</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+  <script>
+    function showDropdown() {
+      document.getElementById("dropdown-content").classList.toggle("show");
+    }
+
+    function showSubDropdown() {
+      document.getElementById("sub-dropdown-content").classList.toggle("show");
+    }
+  </script>
+
+  <!--The News Section-->
+  <div class="news-container">
+    <div class="sub-news-cont">
+      <!--Blog1-->
+      <div class="sub-news">
+        <img src="images/johnny-drille.avif" class="news-img" alt="Unable to load Image">
+        <br>
+        <br>
+        <label id="txt-date">January 4, 2024</label>
+        <br>
+        <br>
+        <label id="txt-title">Johnny Drille and his wife have welcomed their little miracle</label>
+        <br>
+        <br>
+        <label id="txt-writer">Crafted by Claire Nwosu</label>
+        <br>
+        <br>
+        <label id="txt-desc">
+            Drille made the announcement in a heartwarming Instagram post on Thursday, December 28, 2023, stating that their baby girl was born on November 17, 2023. The video posted contained clips from his wife, Rima's pregnancy journey up until the moment of Amaris' birth. He doted on his newborn, focusing on his new found calling as a father...
+        </label>
+        <br>
+        <br>
+        <br>
+        <a href="News/Blog4.html" id="read-more">Read More...</a>
+      </div>
+  
+      <div class="swit-pg">
+        <a href="news.html" class="pg prev">Page1</a>
+        <a class="pg next">Page3</a>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer (Sixth Section)-->
+
+  <div class="footer-head">
+    <div class="footer-sub">
+      <div class="left-foot">
+        <label id="solid1"><span style="color: #FB0254;">Fwesh</span>Music</label>
+        <br>
+        <label id="solid2">Your Freshiest Music Store</label>
+        <br>
+        <br>
+        <div class="logos">
+          <img class="logo1" src="images/black-instagram-icon.png" alt="Unable to load images">
+          <img class="logo2" src="images/facebook-app-round-icon.png" alt="Unable to load images">
+          <img class="logo3" src="images/x-social-media-black-icon.png" alt="Unable to load images">
+        </div>
+      </div>
+
+      <div class="right-foot">
+        <div class="shift1">
+          <label class="light1">ABOUT US</label>
+          <br>
+          <br>
+          <label class="light1-sub">We are<br><br>Fresh<br><br>all time</label>
+        </div>
+        <div class="shift2">
+          <label class="light2">CONTACT US</label>
+          <br>
+          <br>
+          <label class="light2-sub">
+            <span>Tel: 08085971649</span>
+            <br>
+            <br>
+            <span id="email">Email: fweshmusicinc@gmail.com</span>
+            <br>
+            <br>
+            <span>Whatsapp: 08085971649</span>
+          </label>
+        </div>
+        <div class="shift3">
+          <label class="light3">SERVICES</label>
+          <br>
+          <br>
+          <label class="light3-sub">
+            <a href="news.html" id="foot-link">Music</a>
+              <br>
+              <br>
+              <a href="Videos/AfricanV.html" id="foot-link">Videos</a>
+              <br>
+              <br>
+              <a href="news.html" id="foot-link">News</a>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

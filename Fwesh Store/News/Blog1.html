@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <meta name="description" content="FweshMusic">
+  <meta name="keywords" content="music,videos,news">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Stylings/blog1.css">
+</head>
+<body>
+  <div class="container">
+    <div class="cont-gather">
+      <div class="sub-cont">
+        <div class="title-holder">
+          <label id="lg-name1">Fwesh</label>
+          <label id="lg-name2">Music</label>
+        </div>
+  
+        <!--DROPDOWN SECTION-->
+  
+        <div class="dropdown">
+          <button onclick="showDropdown()" class="dropdown-button">Menu &#9776</button>
+          <div id="dropdown-content" class="dropdown-content">
+            <a href="../index.html">Home</a>
+            <a href="../news.html">News</a>
+            <a href="../Contact.html">Contact</a>
+            <div class="sub-dropdown">
+              <button onclick="showSubDropdown()" class="sub-dropdown-button">Pages &#x25BC</button>
+              <div id="sub-dropdown-content" class="sub-dropdown-content">
+                <a href="../music.html">Music</a>
+                <a href="../Videos/AfricanV.html">Videos</a>
+              </div>
+            </div>
+            <a href="../about.html">About</a>
+            <a href="../help.html" id="help">Help</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+  <script>
+    function showDropdown() {
+      document.getElementById("dropdown-content").classList.toggle("show");
+    }
+
+    function showSubDropdown() {
+      document.getElementById("sub-dropdown-content").classList.toggle("show");
+    }
+  </script>
+
+
+  <div class="news-container">
+    <div class="sub-news-cont">
+      <img src="../images/Alan-Cross.jpg" class="news-img" alt="Unable to load Image">
+      <br>
+      <div class="side-by-side">
+        <label id="txt-date">January 1, 2024</label>
+        <label id="txt-writer">Crafted by Chidubem Festus</label>
+      </div>
+      <br>
+      <label id="txt-title">Alan Cross predicts 10 major shifts in the music landscape for 2024.</label>
+      <br>
+      <label id="txt-desc">
+        As history bends a quarter past the millennium, the music scene pulsates with constant evolution. While even a music-breathing soul like me can struggle to keep pace, here's a glimpse into 2024's sonic landscape...
+      </label>
+      <br>
+      <hr id="line">
+      <!--The Full News-->
+      <div class="full-gist">
+        <p>1. There will be fragmentations in music.</p>
+        <label id="sub-txt">
+          From Curated Crates to Overflowing Jukeboxes: In the past, record labels and media outlets acted as music gatekeepers, dishing out carefully chosen tunes. Now, the dam has burst, and a vast ocean of recordings laps at our ears constantly. Gone are the days of shared listening hubs like radio or MuchMusic, where everyone flocked to hear the buzzworthy artists. The agreement on what constitutes "good" music and who reigns as "big" has fractured, leaving our listening preferences a scattered archipelago. The unifying center of music has dissolved, and "big" has never felt smaller, save for a select few acts.
+
+The unifying power of music has faded. Gone are the days of everyone rushing to the record store to snag that one album buzzing on everyone's lips. Back then, we invested in our musical experiences, exchanging hard cash for tangible treasures. Today, drowning in a sea of free options, we flit from track to track, our thumbs hovering over the "skip" button like restless butterflies. We're inundated, and music, once precious, has lost its luster. Today's stars glimmer more faintly than their historical counterparts.
+
+American radio chart analyst Guy Zapoleon offers stark evidence of this fragmentation. In 2023, "consensus hits" – songs gracing at least half of America's top 40 stations – plunged to a record low of 18, a far cry from the 28 that reigned in 2020.
+
+Meanwhile, a growing apathy towards new music seems to simmer. A whopping 75% of music consumed today predates the past two years, hinting at a widespread dissatisfaction with current offerings. And this, it appears, is a trend destined to endure.
+        </label>
+        <br>
+        <br>
+        <p>2. The music will still be distorted by the algorithms.</p>
+        <label id="sub-txt">
+          In the past, recommendation systems were crucial for navigating the music discovery process. Currently, though, it appears that they are driving us toward readily commercialized items rather than meeting our requirements. You're not alone if you feel like you're being presented with content that doesn't interest you.
+
+Artificial intelligence clones, bot farms, false streams, lax enforcement and moderation, and other issues will only cause confusion and annoyance in the meantime.
+        </label>
+        <br>
+        <br>
+        <p>3. In 2024, TikTok may be even more revolutionary.</p>
+        <label id="sub-txt">
+          It has been a few years since TikTok became one of the most downloaded applications worldwide. The business understands that a deeper platform integration of licensed music is necessary for sustained success. When TikTok Music, the company's streaming service, launches in further nations, the industry's response might undergo significant shifts.
+        </label>
+        <br>
+        <br>
+        <p>4. Music streaming services will soon need to combine.</p>
+        <label id="sub-txt">
+          The trend of music streaming is about to explode. Platforms are under more pressure than ever from a bloated market with mature income sources and rigid license agreements. The pre-Christmas layoffs at Spotify are a portent of things to come: consolidation and hard times are coming. Smaller businesses like Tidal, Deezer, and Napster confront a daunting decision: will they endure, combine, or perish, while industry titans like Spotify, Apple, and Amazon, supported by their trillion-dollar parents, can weather the storm? In the upcoming chapters, the landscape of music streaming should be drastically altered with a number of mergers, acquisitions, and perhaps even some unexpected departures. The music is going to change, so fasten your seatbelt.
+        </label>
+        <br>
+        <br>
+        <p>5. The language of popular music will continue to evolve</p>
+        <label id="sub-txt">
+          It used to be that if you wanted a global hit, you had to sing in English. Not anymore. Thanks to the widespread availability of cheap streaming music, songs are free to flow anywhere they want. Latin music has exploded. K-pop is everywhere. It’s only a matter of time before we see global hits emerging from India, China and Africa.
+        </label>
+        <br>
+        <br>
+        <p>6. The AI-and-music panic will subside</p>
+        <label id="sub-txt">
+          Right now, everyone sees AI as a threat to humanity in music. But we’ve seen this movie before with the rise of synthesizers (“They’re killing jobs for musicians!”), drum machines (“Human drummers will become extinct!”) and sampling (“All music will end up just being recycled bits!”). It’ll take a few more years to sort out all the legalities and ethics of this new technology, but we’ll soon wonder how we all did without AI. Just like we did with synths, drum machines and sampling.
+        </label>
+        <br>
+        <br>
+        <p>7. We will lose more beloved musicians</p>
+        <label id="sub-txt">With so many of our legends in their 70s and 80s, it’s just a matter of time. Prepare yourself.
+        </label>
+        <br>
+        <br>
+        <p>8. We will finally have music that sounds as good as what we had in the 70s
+        </p>
+        <label id="sub-txt">
+          A couple of generations have grown up on the inferior audio quality of MP3s and their ilk. Convenient and portable, yes. Good-sounding audio? No. But with the rise of new tech (Dolby ATMOS, Sony 360, Apple Spatial Audio, Hi-Res Audio) we’re approaching an era where music will not only sound better than MP3s and other compressed formats but better than CDs. A few things still need to be worked out (proper decoding hardware on phones, more bandwidth to allow for wireless listening), but we’ve turned a corner when it comes to getting back to proper high-fidelity music.
+        </label>
+        <br>
+        <br>
+        <p>9. We may finally say enough is enough to high ticket prices
+        </p>
+        <label id="sub-txt">
+          Acts have been pushing hard to see how much fans are willing to pay to see a show. So far, though, fans haven’t reached the breaking point. Funflation — the idea of spending more and more money on fun things because the world seems so crazy that going to a gig is one way of coping with one existential crisis after another — can’t go on indefinitely. Once artists and promoters start seeing rows and rows of empty seats, they’ll know that we’ve reached our limit.
+        </label>
+        <br>
+        <br>
+        <p>10. The Taylor Swift/Travis Kelce thing will end badly
+        </p>
+        <label id="sub-txt">
+          Talk about a marketing powerhouse. Kelce was already a star when he crossed paths with Tay-Tay, so when their relationship became public, they became a Richard Burton-Liz Taylor-style phenomenon.
+        </label>
+      </div>
+      <br>
+      <a href="../news.html" class="but-back">&larr; Go Back</a>
+    </div>
+  </div>
+  <!--Footer (Sixth Section)-->
+
+  <div class="footer-head">
+    <div class="footer-sub">
+      <div class="left-foot">
+        <label id="solid1"><span style="color: #FB0254;">Fwesh</span>Music</label>
+        <br>
+        <label id="solid2">Your Freshiest Music Store</label>
+        <br>
+        <br>
+        <div class="logos">
+          <img class="logo1" src="../images/black-instagram-icon.png" alt="Unable to load images">
+          <img class="logo2" src="../images/facebook-app-round-icon.png" alt="Unable to load images">
+          <img class="logo3" src="../images/x-social-media-black-icon.png" alt="Unable to load images">
+        </div>
+      </div>
+
+      <div class="right-foot">
+        <div class="shift1">
+          <label class="light1">ABOUT US</label>
+          <br>
+          <br>
+          <label class="light1-sub">We are<br><br>Fresh<br><br>all time</label>
+        </div>
+        <div class="shift2">
+          <label class="light2">CONTACT US</label>
+          <br>
+          <br>
+          <label class="light2-sub">
+            <span>Tel: 08085971649</span>
+            <br>
+            <br>
+            <span id="email">Email: fweshmusicinc@gmail.com</span>
+            <br>
+            <br>
+            <span>Whatsapp: 08085971649</span>
+          </label>
+        </div>
+        <div class="shift3">
+          <label class="light3">SERVICES</label>
+          <br>
+          <br>
+          <label class="light3-sub">
+            <a href="../music.html" id="foot-link">Music</a>
+            <br>
+            <br>
+            <a href="../Videos/AfricanV.html" id="foot-link">Videos</a>
+            <br>
+            <br>
+            <a href="../news.html" id="foot-link">News</a>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

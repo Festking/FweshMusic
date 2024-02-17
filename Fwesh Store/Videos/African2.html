@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <meta name="description" content="FweshMusic">
+  <meta name="keywords" content="music,videos,news">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Stylings/afriV2.css">
+</head>
+<body>
+  <div class="container">
+    <div class="cont-gather">
+      <div class="sub-cont">
+        <div class="title-holder">
+          <label id="lg-name1">Fwesh</label>
+          <label id="lg-name2">Music</label>
+        </div>
+  
+        <!--DROPDOWN SECTION-->
+  
+        <div class="dropdown">
+          <button onclick="showDropdown()" class="dropdown-button">Menu &#9776</button>
+          <div id="dropdown-content" class="dropdown-content">
+            <a href="../index.html">Home</a>
+            <a href="../news.html">News</a>
+            <a href="../Contact.html">Contact</a>
+            <div class="sub-dropdown">
+              <button onclick="showSubDropdown()" class="sub-dropdown-button">Pages &#x25BC</button>
+              <div id="sub-dropdown-content" class="sub-dropdown-content">
+                <a href="../music.html">Music</a>
+                <a href="AfricanV.html">Videos</a>
+              </div>
+            </div>
+            <a href="../about.html">About</a>
+            <a href="../help.html" id="help">Help</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+  <script>
+    function showDropdown() {
+      document.getElementById("dropdown-content").classList.toggle("show");
+    }
+
+    function showSubDropdown() {
+      document.getElementById("sub-dropdown-content").classList.toggle("show");
+    }
+  </script>
+
+  <!--Videos Section-->
+  <div class="category">
+    <div class="sub-cat">
+    <button class="but b1"><a id="but1" href="AfricanV.html">African  Music</a></button>
+    <button class="but b2"><a id="but2" href="ForeignV.html">Foreign Music</a></button>
+    </div>
+  </div>
+  <div class="vid-dashboard">
+    <div class="vid-dash2">
+        <div>
+            <h2><b>LIBIANA-PEOPLE</b></h2>
+            <p>Libianca Kenzonkinboum Fonji, famously known in the world of music by her stage, Libianca a Cameroonian-American afrobeat and R&B singer, songwriter, and audio engineer released this mind-blowing melody captioned <b>People</b> that has been making waves across the country.</p>
+        </div>
+        <img src="../images/Libianca-artwork.jpeg" class="vid-img">
+    </div>
+    <div class="vid-dash2">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rJWdfDPZ9Ck?si=OIs_qBH_hAnB9b_F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="downloads">
+            <a class="but-load" href="#">Download Audio</a>
+            <br><br><br><br>
+            <a class="but-load2" href="#">Download Video</a>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br><br><br>
+    <div class="vid-dash2">
+        <div>
+            <h2><b>BLOODY SAMARITAN</b></h2>
+            <p>Mavin record star, Ayra Starr dishes out a brand new single dubbed “<b>Bloody Samaritan</b>”.</p>
+            <p>The song serves as her latest debut following the released of her highly streamed project called Ayra Star.</p>
+        </div>
+        <img src="../images/ayra-artwork.jpeg" class="vid-img">
+    </div>
+    <div class="vid-dash2">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/b5Sp0jIHDYE?si=RPDklEb7o8cXyjcP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="downloads">
+            <a class="but-load" href="#">Download Audio</a>
+            <br><br><br><br>
+            <a class="but-load2" href="#">Download Video</a>
+        </div>
+    </div>
+    <br>
+    <hr>
+
+    <div class="swit-pg">
+        <a href="AfricanV.html" class="pg prev">Page1</a>
+        <a class="pg next">Page3</a>
+    </div>
+  </div>
+  <!--Footer (Sixth Section)-->
+
+  <div class="footer-head">
+    <div class="footer-sub">
+      <div class="left-foot">
+        <label id="solid1"><span style="color: #FB0254;">Fwesh</span>Music</label>
+        <br>
+        <label id="solid2">Your Freshiest Music Store</label>
+        <br>
+        <br>
+        <div class="logos">
+          <img class="logo1" src="../images/black-instagram-icon.png" alt="Unable to load images">
+          <img class="logo2" src="../images/facebook-app-round-icon.png" alt="Unable to load images">
+          <img class="logo3" src="../images/x-social-media-black-icon.png" alt="Unable to load images">
+        </div>
+      </div>
+
+      <div class="right-foot">
+        <div class="shift1">
+          <label class="light1">ABOUT US</label>
+          <br>
+          <br>
+          <label class="light1-sub">We are<br><br>Fresh<br><br>all time</label>
+        </div>
+        <div class="shift2">
+          <label class="light2">CONTACT US</label>
+          <br>
+          <br>
+          <label class="light2-sub">
+            <span>Tel: 08085971649</span>
+            <br>
+            <br>
+            <span id="email">Email: fweshmusicinc@gmail.com</span>
+            <br>
+            <br>
+            <span>Whatsapp: 08085971649</span>
+          </label>
+        </div>
+        <div class="shift3">
+          <label class="light3">SERVICES</label>
+          <br>
+          <br>
+          <label class="light3-sub">
+            <a href="../music.html" id="foot-link">Music</a>
+            <br>
+            <br>
+            <a href="AfricanV.html" id="foot-link">Videos</a>
+            <br>
+            <br>
+            <a href="../news.html" id="foot-link">News</a>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

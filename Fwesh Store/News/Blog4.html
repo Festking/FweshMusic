@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <meta name="description" content="FweshMusic">
+  <meta name="keywords" content="music,videos,news">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Stylings/blog3.css">
+</head>
+<body>
+  <div class="container">
+    <div class="cont-gather">
+      <div class="sub-cont">
+        <div class="title-holder">
+          <label id="lg-name1">Fwesh</label>
+          <label id="lg-name2">Music</label>
+        </div>
+  
+        <!--DROPDOWN SECTION-->
+  
+        <div class="dropdown">
+          <button onclick="showDropdown()" class="dropdown-button">Menu &#9776</button>
+          <div id="dropdown-content" class="dropdown-content">
+            <a href="../index.html">Home</a>
+            <a href="../news.html">News</a>
+            <a href="../Contact.html">Contact</a>
+            <div class="sub-dropdown">
+              <button onclick="showSubDropdown()" class="sub-dropdown-button">Pages &#x25BC</button>
+              <div id="sub-dropdown-content" class="sub-dropdown-content">
+                <a href="../music.html">Music</a>
+                <a href="../Videos/AfricanV.html">Videos</a>
+              </div>
+            </div>
+            <a href="../about.html">About</a>
+            <a href="../help.html" id="help">Help</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+  <script>
+    function showDropdown() {
+      document.getElementById("dropdown-content").classList.toggle("show");
+    }
+
+    function showSubDropdown() {
+      document.getElementById("sub-dropdown-content").classList.toggle("show");
+    }
+  </script>
+
+
+  <div class="news-container">
+    <div class="sub-news-cont">
+      <img src="../images/johnny-drille.avif" class="news-img" alt="Unable to load Image">
+      <br>
+      <div class="side-by-side">
+        <label id="txt-date">January 4, 2024</label>
+        <label id="txt-writer">Crafted by Claire Nwosu</label>
+      </div>
+      <br>
+      <label id="txt-title">Johnny Drille and his wife have welcomed their little miracle</label>
+      <br>
+      <label id="txt-desc">
+        Drille made the announcement in a heartwarming Instagram post on Thursday, December 28, 2023, stating that their baby girl was born on November 17, 2023. The video posted contained clips from his wife, Rima's pregnancy journey up until the moment of Amaris' birth. He doted on his newborn, focusing on his new found calling as a father...
+      </label>
+      <br>
+      <hr id="line">
+      <!--The Full News-->
+      <div class="full-gist">
+        <p>Nigerian singer Johnny Drille and his wife have welcomed their first child, a baby girl they named Amaris.
+        </p>
+        <br>
+        <label id="sub-txt">Drille made the announcement in a heartwarming Instagram post on Thursday, December 28, 2023, stating that their baby girl was born on November 17, 2023. The video posted contained clips from his wife, Rima's pregnancy journey up until the moment of Amaris' birth. He doted on his newborn, focusing on his new found calling as a father...
+            He began, "AMARIS ESOHE IGHODARO | 11.17.23 Six weeks ago today, we held in our arms our daughter for the first time. It’s hard to explain but it’s the most miraculous thing I’ve ever known. Never felt a greater sense of purpose to protect and to nurture.<br><br>Everyday I pray to God to help me be the best father for our daughter, so help me God."
+            Going on, he fawned over his wife, emphasising on her strength and grace in embracing motherhood.
+            
+            "Dear @rimouuune I’m in awe of your strength, I’ve seen you go through real pain the last few months, but you stayed strong for our baby, and for me. Been watching you take on motherhood with so much grace. Something more exciting about raising this child with you," he said.
+            
+            The great news brought joy to the singer's fans, followers and fellow celebrities who took to his comment section, flooding it with congratulatory messages and goodwill.
+            
+            Rima also posted pictures from her maternity shoot, holding onto her round belly. One of the shots showed Drille planting a soft kiss on her baby bump.
+            Drille and Rima, the director of A&R at Mavin Global tied the knot back in 2022 and successfully kept their marriage a secret up until their first anniversary in July 2023. The announcement took the internet by storm, and now their cozy family of two has grown by one more.  
+        </label>
+      </div>
+      <br>
+      <a href="../news2.html" class="but-back">&larr; Go Back</a>
+    </div>
+  </div>
+  <!--Footer (Sixth Section)-->
+
+  <div class="footer-head">
+    <div class="footer-sub">
+      <div class="left-foot">
+        <label id="solid1"><span style="color: #FB0254;">Fwesh</span>Music</label>
+        <br>
+        <label id="solid2">Your Freshiest Music Store</label>
+        <br>
+        <br>
+        <div class="logos">
+          <img class="logo1" src="../images/black-instagram-icon.png" alt="Unable to load images">
+          <img class="logo2" src="../images/facebook-app-round-icon.png" alt="Unable to load images">
+          <img class="logo3" src="../images/x-social-media-black-icon.png" alt="Unable to load images">
+        </div>
+      </div>
+
+      <div class="right-foot">
+        <div class="shift1">
+          <label class="light1">ABOUT US</label>
+          <br>
+          <br>
+          <label class="light1-sub">We are<br><br>Fresh<br><br>all time</label>
+        </div>
+        <div class="shift2">
+          <label class="light2">CONTACT US</label>
+          <br>
+          <br>
+          <label class="light2-sub">
+            <span>Tel: 08085971649</span>
+            <br>
+            <br>
+            <span id="email">Email: fweshmusicinc@gmail.com</span>
+            <br>
+            <br>
+            <span>Whatsapp: 08085971649</span>
+          </label>
+        </div>
+        <div class="shift3">
+          <label class="light3">SERVICES</label>
+          <br>
+          <br>
+          <label class="light3-sub">
+            <a href="../music.html" id="foot-link">Music</a>
+            <br>
+            <br>
+            <a href="../Videos/AfricanV.html" id="foot-link">Videos</a>
+            <br>
+            <br>
+            <a href="../news.html" id="foot-link">News</a>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

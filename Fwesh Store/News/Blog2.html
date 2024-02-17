@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <meta name="description" content="FweshMusic">
+  <meta name="keywords" content="music,videos,news">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Stylings/blog2.css">
+</head>
+<body>
+  <div class="container">
+    <div class="cont-gather">
+      <div class="sub-cont">
+        <div class="title-holder">
+          <label id="lg-name1">Fwesh</label>
+          <label id="lg-name2">Music</label>
+        </div>
+  
+        <!--DROPDOWN SECTION-->
+  
+        <div class="dropdown">
+          <button onclick="showDropdown()" class="dropdown-button">Menu &#9776</button>
+          <div id="dropdown-content" class="dropdown-content">
+            <a href="../index.html">Home</a>
+            <a href="../news.html">News</a>
+            <a href="../Contact.html">Contact</a>
+            <div class="sub-dropdown">
+              <button onclick="showSubDropdown()" class="sub-dropdown-button">Pages &#x25BC</button>
+              <div id="sub-dropdown-content" class="sub-dropdown-content">
+                <a href="../music.html">Music</a>
+                <a href="../Videos/AfricanV.html">Videos</a>
+              </div>
+            </div>
+            <a href="../about.html">About</a>
+            <a href="../help.html" id="help">Help</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+  <script>
+    function showDropdown() {
+      document.getElementById("dropdown-content").classList.toggle("show");
+    }
+
+    function showSubDropdown() {
+      document.getElementById("sub-dropdown-content").classList.toggle("show");
+    }
+  </script>
+
+
+  <div class="news-container">
+    <div class="sub-news-cont">
+      <img src="../images/burna-boy.webp" class="news-img" alt="Unable to load Image">
+      <br>
+      <div class="side-by-side">
+        <label id="txt-date">January 2, 2024</label>
+        <label id="txt-writer">Crafted by Priscilla Ifunanya</label>
+      </div>
+      <br>
+      <label id="txt-title">Burna Boy excludes himself from the 'Afrobeats Big 3'</label>
+      <br>
+      <label id="txt-desc">
+        "Anytime they talk about a big 3, tell them there's a big 2 and then there's Burna Boy," the Grammy winner said before dropping the mic and walking off the stage as fans cheered in delight...
+      </label>
+      <br>
+      <hr id="line">
+      <!--The Full News-->
+      <div class="full-gist">
+        <p>Nigerian mainstream music, fans commonly refer to the biggest three music stars Davido, Wizkid, and Burna Boy as the Big 3.
+        </p>
+        <br>
+        <label id="sub-txt">Damini Ogulu, better known as Burna Boy, was born in Port Harcourt, Nigeria in 1991. He grew up surrounded by music, heavily influenced by Fela Kuti's iconic Afrobeat sounds. This left an indelible mark on Burna's style, laying the foundation for his own blend of Afrobeats with influences from dancehall, reggae, and hip-hop.
+
+            In 2010, Burna moved to London to study Media and Communication at the University of Sussex. It was there that he began performing and recording music, honing his craft and building a local following.
+            
+            "Like to Party" and the Afrobeats explosion: In 2012, Burna's single "Like to Party" became a viral sensation, propelling him onto the international stage. This success coincided with the global rise of Afrobeats, a genre he helped popularize and shape with his infectious energy and lyrical flow.<br>While his statement of not being part of the big 3 might come as boastful, Burna Boy has indeed distinguished himself and he has the accolades to back up his claim.
+            Come February 5, 2024, Burna Boy will be hoping to add to his Grammy award as he's nominated in four categories for the 2024 Grammy Awards. His four nominations are a Nigerian record which takes his total career nominations to 10 which is also a Nigerian record.            
+        </label>
+      </div>
+      <br>
+      <a href="../news.html" class="but-back">&larr; Go Back</a>
+    </div>
+  </div>
+  <!--Footer (Sixth Section)-->
+
+  <div class="footer-head">
+    <div class="footer-sub">
+      <div class="left-foot">
+        <label id="solid1"><span style="color: #FB0254;">Fwesh</span>Music</label>
+        <br>
+        <label id="solid2">Your Freshiest Music Store</label>
+        <br>
+        <br>
+        <div class="logos">
+          <img class="logo1" src="../images/black-instagram-icon.png" alt="Unable to load images">
+          <img class="logo2" src="../images/facebook-app-round-icon.png" alt="Unable to load images">
+          <img class="logo3" src="../images/x-social-media-black-icon.png" alt="Unable to load images">
+        </div>
+      </div>
+
+      <div class="right-foot">
+        <div class="shift1">
+          <label class="light1">ABOUT US</label>
+          <br>
+          <br>
+          <label class="light1-sub">We are<br><br>Fresh<br><br>all time</label>
+        </div>
+        <div class="shift2">
+          <label class="light2">CONTACT US</label>
+          <br>
+          <br>
+          <label class="light2-sub">
+            <span>Tel: 08085971649</span>
+            <br>
+            <br>
+            <span id="email">Email: fweshmusicinc@gmail.com</span>
+            <br>
+            <br>
+            <span>Whatsapp: 08085971649</span>
+          </label>
+        </div>
+        <div class="shift3">
+          <label class="light3">SERVICES</label>
+          <br>
+          <br>
+          <label class="light3-sub">
+            <a href="../music.html" id="foot-link">Music</a>
+            <br>
+            <br>
+            <a href="../Videos/AfricanV.html" id="foot-link">Videos</a>
+            <br>
+            <br>
+            <a href="../news.html" id="foot-link">News</a>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
